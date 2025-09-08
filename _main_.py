@@ -4,8 +4,8 @@ from markit import *
 from sid import *
 import os
 
-email = os.getenv("CAMU_EMAIL")
-password = os.getenv("CAMU_PASSWORD")
+email = os.getenv("EMAIL")
+password = os.getenv("PASSWORD")
 
 if not email or not password:
     print("Email and password cannot be empty.")
